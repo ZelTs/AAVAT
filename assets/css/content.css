@@ -1,0 +1,115 @@
+.section__content h2 {
+    margin: 0.75rem 0 1.8rem 0;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    position: relative; /* Para que el texto esté encima de la img */
+    z-index: 1;
+}
+
+.section__content p {
+    margin-bottom: 1.125rem;
+}
+
+.section__content .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.socio{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light-blue);
+    border-radius: 30px;
+}
+
+.sc__socio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sc__img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.sc__img {
+    background-image: url('/assets/img/jpg/hheader__sun.jpg');
+    background-size: cover;
+    height: cover;
+    background-position: top;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 0 1rem;
+    margin-top: 3rem;
+    color: var(--white);
+    text-align: center;
+    position: relative;
+
+}
+.sc__name{
+    font-size: 1.75rem;
+    color: var(--white);
+    margin-top: 0.5rem;
+}
+
+.img__socio{
+    width: 75%;
+    height: 75%;
+    border-radius: 50%; /* Esto hace que el borde de la imagen sea un círculo */
+}
+
+.sc__description{
+    margin-top: -0.2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+.sc_subtitle{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.sc_subtitle h2{
+    font-size: 1.5rem;
+}
+
+.sc__desc{
+    margin-bottom: 3rem;
+}
+
+.btn{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--blue);
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.7rem 1.125rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 1rem;
+    
+}
+
+.btn:hover{
+    background: var(--orange);
+
+}

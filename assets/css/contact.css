@@ -1,0 +1,30 @@
+.contacto{
+    margin: 2rem 0.4rem 3rem 0.4rem;
+    border: 1px solid #444444; /* Un borde sólido de 2 píxeles de ancho, de color negro */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.title__contacto{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.title__contacto:before {
+    content: "—— ";
+}
+
+.title__contacto:after {
+    content: " ——";
+}
+
+.datos{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.datos svg{
+    margin: 2rem 1rem 2rem 0;
+}

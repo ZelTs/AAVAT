@@ -1,0 +1,84 @@
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--dark-white);
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 1.5rem;
+    z-index: 1000;
+}
+
+.logo {
+    margin-left: -0.5rem;
+}
+
+.menu__icon {
+    cursor: pointer;
+    margin-right: 2.2rem;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 40%;
+    max-width: 300px;
+    height: 100%;
+    background-color: var(--white);
+    padding: 2rem;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    box-shadow: -8px 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.menu.open {
+    right: 0;
+}
+
+.close__menu {
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+.close__menu svg {
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 0.6rem 0;
+    text-align: right;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.content {
+    margin-top: 2.2rem;
+}
+
+.blur {
+    filter: blur(3px);
+}

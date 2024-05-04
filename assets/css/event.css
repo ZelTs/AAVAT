@@ -1,0 +1,93 @@
+.event__section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  color: var(--black);
+
+  margin: 0 0.4rem 2rem 0.4rem;
+  border: 1px solid #444444; /* Un borde sólido de 2 píxeles de ancho, de color negro */
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+.subtitle__section{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+#estado, #municipio {
+  margin-bottom: 1rem;
+  padding: 0.7rem; /* Ajusta el padding según sea necesario */
+  text-transform: uppercase;
+  font-size: 1rem;
+  width: 80%;
+  border: none;
+  background-color: var(--blue);
+  color: var(--white);
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Este estilo se aplica solo en dispositivos iOS */
+@media screen and (max-width: 768px) {
+  #estado, #municipio {
+    -webkit-appearance: none; /* Desactiva la apariencia predeterminada del select */
+    text-align: center; /* Centra el texto horizontalmente */
+    text-align-last: center; /* Centra el último texto horizontalmente */
+  }
+
+  #municipio:disabled {
+    color: var(--white); /* Cambia el color del texto a gris */
+    background-color: var(--gray); /* Cambia el color de fondo a gris claro */
+    border: 1px solid #ccc; /* Agrega un borde gris claro */
+  }
+}
+
+span{
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.section__cenital{
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  width: 90%;
+  color: var(--black);
+  background-color: var(--light-blue);  
+}
+
+.place__event{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.sc__localidad{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title__localidad{
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.dato__event{
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-right: 2rem;
+}
+
+
