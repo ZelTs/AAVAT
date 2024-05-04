@@ -28,7 +28,7 @@ function loadGalleryImages() {
         const img = document.createElement("img");
         img.classList.add("gallery__image");
         img.classList.add("slide-animation"); // Agregar la clase slide-animation
-        img.src = `/assets/img/jpg/${imageName}.jpg`;
+        img.src = `assets/img/jpg/${imageName}.jpg`;
         img.alt = `Image ${index + 1}`;
         img.style.transform = `translateX(${index * 100}%)`; // Posicionar la imagen
 
