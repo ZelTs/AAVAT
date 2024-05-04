@@ -1,5 +1,5 @@
 // Fetch para obtener el JSON de estados y municipios
-fetch('/assets/JSON/mp.json')
+fetch('assets/JSON/mp.json')
     .then(response => response.json())
     .then(data => {
         const estadoSelect = document.getElementById("estado");
@@ -28,7 +28,7 @@ function cargarMunicipios() {
         municipioSelect.disabled = true;
     } else {
         // Encontrar el estado seleccionado en el arreglo de estados
-        fetch('/assets/JSON/mp.json')
+        fetch('assets/JSON/mp.json')
             .then(response => response.json())
             .then(data => {
                 const estado = data.find(est => est.clave === estadoSeleccionado);
