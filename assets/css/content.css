@@ -49,7 +49,7 @@
 }
 
 .sc__img {
-    background-image: url('/assets/img/jpg/hheader__sun.jpg');
+    background-image: url('assets/img/jpg/hheader__sun.jpg');
     background-size: cover;
     height: cover;
     background-position: top;
