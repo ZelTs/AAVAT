@@ -14,7 +14,10 @@
 }
 
 .logo {
-    margin-left: -0.5rem;
+    margin: 0 0.5rem 0 -0.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .menu__icon {
@@ -53,7 +56,7 @@
 
 .close__menu {
     text-align: right;
-    margin-bottom: 2rem;
+    margin: -1.3rem -1rem 2rem 0;
 }
 
 .close__menu svg {
@@ -75,10 +78,8 @@
     color: var(--black);
 }
 
-.content {
-    margin-top: 2.2rem;
+.blur {
+    filter: blur(5px); /* Aquí defines el efecto de desenfoque */
+    pointer-events: none; /* Evita que los elementos con desenfoque reciban eventos de ratón */
 }
 
-.blur {
-    filter: blur(3px);
-}

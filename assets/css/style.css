@@ -1,12 +1,15 @@
 :root {
     --black: #444444;
+    --dark:#000000;
     --white: #ffffff;
-    --dark-white:#f8fffd;
+    --dark-white:#e6eeec;
     --dark-blue: #001F3F;
     --blue: #2a7ae4;
     --light-blue: hsl(204, 56%, 91%);
     --gray: #CCCCCC;
-    --orange:#e4a479;
+    --orange:#dd8d41;
+    --dark-orange:#bd6d23;
+    --light-orange:#f3f3ec;
     --yellow: #FFD700;
 }
 
@@ -23,4 +26,17 @@ html {
 
 .container {
     margin: 1rem;
+}
+
+.btn{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--orange);
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.7rem 1.125rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 1rem;
 }

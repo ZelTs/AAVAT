@@ -79,9 +79,9 @@ function cargarFechasYHoras() {
                         // Mostrar mensaje de advertencia
                         const lugarEvento = document.querySelector('.place__event');
                         lugarEvento.innerHTML = `
-                                <div class="sc__localidad">
-                                    <span class="title__localidad">Aviso</span>
-                                    <span class="dato__event">Este fenómeno no puede ser observado en esta área debido a que el municipio está fuera de la zona intertropical</span>
+                                <div class="sc__aviso">
+                                    <span class="msg__aviso">Aviso</span>
+                                    <span class="dato__event__aviso">Este fenómeno no puede ser observado en esta área debido a que el municipio está fuera de la zona intertropical.</span>
                                 </div>
                             `;
                         return; // Detener la ejecución de la función
@@ -129,9 +129,9 @@ function cargarFechasYHoras() {
                     // Si no se encuentra el estado seleccionado, mostrar un aviso
                     const lugarEvento = document.querySelector('.place__event');
                     lugarEvento.innerHTML = `
-                        <div class="sc__localidad">
-                            <span class="title__localidad">Aviso</span>
-                            <span class="dato__event">Datos no encontrados para este Estado</span>
+                        <div class="sc__aviso">
+                            <span class="msg__aviso">Oh no! x_x</span>
+                            <span class="dato__event__aviso">Datos no encontrados para este Estado</span>
                         </div>
                     `;
 
@@ -140,9 +140,9 @@ function cargarFechasYHoras() {
                 // Si no se encuentra el municipio seleccionado, mostrar un aviso
                 const lugarEvento = document.querySelector('.place__event');
                 lugarEvento.innerHTML = `
-                        <div class="sc__localidad">
-                            <span class="title__localidad">Aviso</span>
-                            <span class="dato__event">Datos no encontrados para este Municipio</span>
+                        <div class="sc__aviso">
+                            <span class="msg__aviso">Oh no! x_x</span>
+                            <span class="dato__event__aviso">Datos no encontrados para este Municipio</span>
                         </div>
                     `;
             }

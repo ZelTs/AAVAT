@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <header id="header">
+    <header id="header" class>
         <div class="logo">AAVAT</div>
         <div class="menu__icon" id="menuBtn">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000" width="32px">
@@ -50,7 +50,7 @@
     </div>
 
     <div class="apply__blur">
-        <div class="section__content sc__img content">
+        <div class="section__content sc__img">
 
             <h2>Sol Cenital</h2>
             <div class="sc__socio">
@@ -89,9 +89,9 @@
             <div class="section__cenital">
                 <div class="place__event" id="placeEvent">
                     <!-- Mensaje predeterminado -->
-                    <div class="sc__localidad">
-                        <span class="title__localidad">Aviso</span>
-                        <span class="dato__event">Seleccione un Estado y Municipio</span>
+                    <div class="sc__aviso">
+                        <span class="msg__aviso">¡Aviso!</span>
+                        <span class="dato__event__aviso">Seleccione un estado y un municipio para continuar.</span>
                     </div>
                 </div>
             </div>
@@ -100,26 +100,33 @@
             <h3 class="title__gallery"> La galería de nuestros socios</h3>
             <div class="gallery" id="imageGallery">
                 <div class="gallery__viewport">
-                    <!-- Las imágenes se cargarán aquí mediante JavaScript -->
+                </div>
+                <div class="gallery__controls">
+                    <div class="prev" onclick="showPreviousImage()">&#8249;</div>
+                    <div class="next" onclick="showNextImage()">&#8250;</div>
                 </div>
                 <div class="gallery__indicators" id="imageIndicators">
-                    <!-- Indicadores de la galería -->
                 </div>
             </div>
         </section>
+        <div class="contact__bg"></div>
         <section class="contacto">
             <h3 class="title__contacto">Contacto</h3>
             <div>
                 <div class="datos">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="65px" fill="#444444"><path d="M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="78px" fill="#FFFFFF"><path d="M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z"></path></svg>
                     <p>San Rodolfo S/N, Rancho Santa Lugarda, Toluca, México</p>
                 </div>
                 <div class="datos">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48px" viewBox="0 0 24 24" fill="#444444"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="38px" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"></path></svg>
                     <p>aavatastronomia@gmail.com</p>
                 </div>
             </div>
         </section>
+        <div class="background-image-1">
+            <section class="parallax-container"></section>
+        </div>
+        
         <footer class="footer">
             <p class="msg__footer">Síguenos</p>
             <div class="footer__redes">
@@ -162,7 +169,7 @@
             <p class="msg">aavat©</p>
         </footer>
     </div>
-    </div>
+    
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/states.js"></script>
     <script src="assets/js/parallax.js"></script>

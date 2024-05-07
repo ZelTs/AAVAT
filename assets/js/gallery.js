@@ -131,3 +131,4 @@ window.addEventListener('touchend', handleTouchEnd, false);
 
 // Llamar a la función para cargar las imágenes cuando se cargue el documento
 document.addEventListener("DOMContentLoaded", loadGalleryImages);
+

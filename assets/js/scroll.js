@@ -8,17 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
   
     menuBtn.addEventListener("click", function() {
       menu.classList.toggle("open");
-      overlay.classList.toggle("open");
-      content.classList.toggle("blur");
-      header.classList.toggle("blur");
       doc.classList.toggle("blur"); //Global
     });
   
     overlay.addEventListener("click", function() {
       menu.classList.remove("open");
-      overlay.classList.remove("open");
-      content.classList.remove("blur");
-      header.classList.remove("blur");
       doc.classList.remove("blur"); //Global
     });
   
@@ -27,8 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     closeMenuBtn.addEventListener("click", function() {
       menu.classList.remove("open");
       overlay.classList.remove("open");
-      content.classList.remove("blur");
-      header.classList.remove("blur"); // Quitar el efecto de desenfoque al cerrar el menú
+
       doc.classList.remove("blur"); //Global
     });
   });

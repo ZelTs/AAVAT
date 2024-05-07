@@ -1,8 +1,15 @@
+.contact__bg{
+    background-color: #242424;
+    padding: 3rem 0;
+    margin: 3rem 0 -2rem 0;
+}
+
+
 .contacto{
-    margin: 2rem 0.4rem 3rem 0.4rem;
-    border: 1px solid #444444; /* Un borde sólido de 2 píxeles de ancho, de color negro */
-    border-radius: 10px;
-    padding: 20px;
+    background: linear-gradient(to bottom, #242424, #000000);
+    border-radius: 0;
+    padding-bottom: 1rem;
+    color: var(--white);
 }
 
 .title__contacto{
@@ -12,19 +19,22 @@
 
 .title__contacto:before {
     content: "—— ";
+    font-weight: 400;
 }
 
 .title__contacto:after {
     content: " ——";
+    font-weight: 400;
 }
 
 .datos{
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.125rem;
 }
 
 .datos svg{
-    margin: 2rem 1rem 2rem 0;
+    margin: 1rem;
+
 }

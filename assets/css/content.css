@@ -51,12 +51,11 @@
 .sc__img {
     background-image: url('../img/jpg/hheader__sun.jpg');
     background-size: cover;
-    height: cover;
     background-position: top;
     padding: 1rem;
     border-radius: 20px;
     margin: 0 1rem;
-    margin-top: 3rem;
+    margin-top: 3.3rem;
     color: var(--white);
     text-align: center;
     position: relative;
@@ -78,7 +77,6 @@
     margin-top: -0.2rem;
     margin-bottom: 0.5rem;
     text-align: center;
-
     border-radius: 10px;
 }
 
@@ -95,21 +93,3 @@
     margin-bottom: 3rem;
 }
 
-.btn{
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--white);
-    background-color: var(--blue);
-    text-decoration: none;
-    margin: 1rem;
-    padding: 0.7rem 1.125rem;
-    cursor: pointer;
-    transition: 0.3s ease;
-    font-size: 1rem;
-    
-}
-
-.btn:hover{
-    background: var(--orange);
-
-}
