@@ -84,6 +84,7 @@ span{
 }
 
 .title__localidad{
+  text-decoration: underline;
   font-size: 0.75rem;
   font-weight: bold;
   margin-top: 1rem;
@@ -119,8 +120,5 @@ span{
 .background-image-1 {
   background-image: url('../img/jpg/mooon.jpg');
   background-position: top;
-  background-size: 1200px 700px;
-
-  
-  
+  background-size: 1200px 700px;  
 }

@@ -83,3 +83,14 @@
     pointer-events: none; /* Evita que los elementos con desenfoque reciban eventos de ratón */
 }
 
+.menu__social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo__aavat{
+    
+    margin: 5rem 0 -1rem 0;
+    width: 100%;
+}
