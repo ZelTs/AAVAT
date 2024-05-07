@@ -1,0 +1,286 @@
+{
+    "AGS": [
+        {
+            "nombre": "Aguascalientes",
+            "coordenadas": "21.8853, -102.2916",
+            "fechas": {
+                "Fecha1": "17 de mayo de 2024",
+                "Fecha2": "03 de junio de 2024"
+            },
+            "horas": {
+                "Hora1": "14:35",
+                "Hora2": "13:21"
+            }
+        },
+        {
+            "nombre": "Asientos",
+            "coordenadas": "22.2371, -102.0716",
+            "fechas": {
+                "Fecha1": "17 de mayo de 2024",
+                "Fecha2": "03 de junio de 2024"
+            },
+            "horas": {
+                "Hora1": "14:35",
+                "Hora2": "13:21"
+            }
+        },
+        {
+            "nombre": "Calvillo",
+            "coordenadas": "21.8464, -102.7185",
+            "fechas": {
+                "Fecha1": "17 de mayo de 2024",
+                "Fecha2": "03 de junio de 2024"
+            },
+            "horas": {
+                "Hora1": "14:35",
+                "Hora2": "13:21"
+            }
+        },
+        {
+            "nombre": "Cosio",
+            "coordenadas": "22.3692, -102.2841",
+            "fechas": {
+                "Fecha1": "17 de mayo de 2024",
+                "Fecha2": "03 de junio de 2024"
+            },
+            "horas": {
+                "Hora1": "14:35",
+                "Hora2": "13:21"
+            }
+        },
+        {
+            "nombre": "El Llano",
+            "coordenadas": "21.9363, -102.1959",
+            "fechas": {
+                "Fecha1": "17 de mayo de 2024",
+                "Fecha2": "03 de junio de 2024"
+            },
+            "horas": {
+                "Hora1": "14:35",
+                "Hora2": "13:21"
+            }
+        },
+        {
+            "nombre": "Jesus Maria",
+            "coordenadas": "21.9645, -102.4021",
+            "fechas": {
+                "Fecha1": "17 de mayo de 2024",
+                "Fecha2": "03 de junio de 2024"
+            },
+            "horas": {
+                "Hora1": "14:35",
+                "Hora2": "13:21"
+            }
+        },
+        {
+            "nombre": "Pabellon de Arteaga",
+            "coordenadas": "22.1657, -102.2747",
+            "fechas": {
+                "Fecha1": "17 de mayo de 2024",
+                "Fecha2": "03 de junio de 2024"
+            },
+            "horas": {
+                "Hora1": "14:35",
+                "Hora2": "13:21"
+            }
+        },
+        {
+            "nombre": "Rincon de Romos",
+            "coordenadas": "22.2517, -102.2964",
+            "fechas": {
+                "Fecha1": "17 de mayo de 2024",
+                "Fecha2": "03 de junio de 2024"
+            },
+            "horas": {
+                "Hora1": "14:35",
+                "Hora2": "13:21"
+            }
+        },
+        {
+            "nombre": "San Francisco de los Romo",
+            "coordenadas": "22.0988, -102.2923",
+            "fechas": {
+                "Fecha1": "17 de mayo de 2024",
+                "Fecha2": "03 de junio de 2024"
+            },
+            "horas": {
+                "Hora1": "14:35",
+                "Hora2": "13:21"
+            }
+        },
+        {
+            "nombre": "San Jose de Gracia",
+            "coordenadas": "22.2612, -102.4217",
+            "fechas": {
+                "Fecha1": "17 de mayo de 2024",
+                "Fecha2": "03 de junio de 2024"
+            },
+            "horas": {
+                "Hora1": "14:35",
+                "Hora2": "13:21"
+            }
+        },
+        {
+            "nombre": "Tepezala",
+            "coordenadas": "22.1096, -102.3913",
+            "fechas": {
+                "Fecha1": "17 de mayo de 2024",
+                "Fecha2": "03 de junio de 2024"
+            },
+            "horas": {
+                "Hora1": "14:35",
+                "Hora2": "13:21"
+            }
+        }
+    ],
+    "BC": [
+        {
+            "nombre": "Baja California",
+            "coordenadas": "30.8406, -115.2838",
+            "fechas": {
+                "Fecha1": "01 de mayo de 2024",
+                "Fecha2": "15 de mayo de 2024"
+            },
+            "horas": {
+                "Hora1": "12:00",
+                "Hora2": "18:00"
+            }
+        },
+        {
+            "nombre": "Ensenada",
+            "coordenadas": "31.8667, -116.5964",
+            "fechas": {
+                "Fecha1": "02 de mayo de 2024",
+                "Fecha2": "16 de mayo de 2024"
+            },
+            "horas": {
+                "Hora1": "13:00",
+                "Hora2": "19:00"
+            }
+        },
+        {
+            "nombre": "Mexicali",
+            "coordenadas": "32.6245, -115.4523",
+            "fechas": {
+                "Fecha1": "03 de mayo de 2024",
+                "Fecha2": "17 de mayo de 2024"
+            },
+            "horas": {
+                "Hora1": "14:00",
+                "Hora2": "20:00"
+            }
+        },
+        {
+            "nombre": "Playas de Rosarito",
+            "coordenadas": "32.3636, -117.0563",
+            "fechas": {
+                "Fecha1": "04 de mayo de 2024",
+                "Fecha2": "18 de mayo de 2024"
+            },
+            "horas": {
+                "Hora1": "15:00",
+                "Hora2": "21:00"
+            }
+        },
+        {
+            "nombre": "Tecate",
+            "coordenadas": "32.5689, -116.6304",
+            "fechas": {
+                "Fecha1": "05 de mayo de 2024",
+                "Fecha2": "19 de mayo de 2024"
+            },
+            "horas": {
+                "Hora1": "16:00",
+                "Hora2": "22:00"
+            }
+        },
+        {
+            "nombre": "Tijuana",
+            "coordenadas": "32.5027, -117.0037",
+            "fechas": {
+                "Fecha1": "06 de mayo de 2024",
+                "Fecha2": "20 de mayo de 2024"
+            },
+            "horas": {
+                "Hora1": "17:00",
+                "Hora2": "23:00"
+            }
+        }
+    ],
+        "BCS": [
+            {
+                "nombre": "Baja California Sur",
+                "coordenadas": "25.5714, -111.4747",
+                "fechas": {
+                    "Fecha1": "10 de mayo de 2024",
+                    "Fecha2": "25 de mayo de 2024"
+                },
+                "horas": {
+                    "Hora1": "12:00",
+                    "Hora2": "18:00"
+                }
+            },
+            {
+                "nombre": "Comondu",
+                "coordenadas": "25.2976, -111.7598",
+                "fechas": {
+                    "Fecha1": "11 de mayo de 2024",
+                    "Fecha2": "26 de mayo de 2024"
+                },
+                "horas": {
+                    "Hora1": "13:00",
+                    "Hora2": "19:00"
+                }
+            },
+            {
+                "nombre": "La Paz",
+                "coordenadas": "24.1426, -110.3126",
+                "fechas": {
+                    "Fecha1": "12 de mayo de 2024",
+                    "Fecha2": "27 de mayo de 2024"
+                },
+                "horas": {
+                    "Hora1": "14:00",
+                    "Hora2": "20:00"
+                }
+            },
+            {
+                "nombre": "Loreto",
+                "coordenadas": "26.0144, -111.3475",
+                "fechas": {
+                    "Fecha1": "13 de mayo de 2024",
+                    "Fecha2": "28 de mayo de 2024"
+                },
+                "horas": {
+                    "Hora1": "15:00",
+                    "Hora2": "21:00"
+                }
+            },
+            {
+                "nombre": "Los Cabos",
+                "coordenadas": "23.0638, -109.7026",
+                "fechas": {
+                    "Fecha1": "14 de mayo de 2024",
+                    "Fecha2": "29 de mayo de 2024"
+                },
+                "horas": {
+                    "Hora1": "16:00",
+                    "Hora2": "22:00"
+                }
+            },
+            {
+                "nombre": "Mulege",
+                "coordenadas": "26.9068, -111.9835",
+                "fechas": {
+                    "Fecha1": "15 de mayo de 2024",
+                    "Fecha2": "30 de mayo de 2024"
+                },
+                "horas": {
+                    "Hora1": "17:00",
+                    "Hora2": "23:00"
+                }
+            }
+        ]
+    }
+    
+

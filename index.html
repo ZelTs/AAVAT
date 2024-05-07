@@ -77,34 +77,21 @@
         <section class="event__section">
             <h3 class="subtitle__section">¡Conoce cuándo sucederá este fenómeno en tu localidad!</h3>
             <span>Estado</span>
-            <select id="estado" onchange="cargarMunicipios()">
+            <select class="" id="estado" onchange="cargarMunicipios(); cargarFechasYHoras()">
                 <option value="" disabled selected>Seleccione el estado</option>
             </select>
             <span>Municipio</span>
-            <select id="municipio" disabled>
+            <select id="municipio" onchange="cargarFechasYHoras()" disabled>
                 <option value="" disabled selected>Seleccione el municipio</option>
             </select>
-
+    
             <h3>A continuación se muestran los datos del próximo Sol cenital en tu zona</h3>
             <div class="section__cenital">
-                <div class="place__event">
+                <div class="place__event" id="placeEvent">
+                    <!-- Mensaje predeterminado -->
                     <div class="sc__localidad">
-                        <span class="title__localidad">Estado</span>
-                        <span class="dato__event">Ciudad de México</span>
-                    </div>
-                    <div class="sc__localidad">
-                        <span class="title__localidad">Municipio</span>
-                        <span class="dato__event">Benito Juárez</span>
-                    </div>
-
-                    <div class="sc__localidad">
-                        <span class="title__localidad">Fecha y Hora</span>
-                        <span class="dato__event">26/05/2024 - 14:35 hrs</span>
-                    </div>
-
-                    <div class="sc__localidad">
-                        <span class="title__localidad">Fecha y Hora </span>
-                        <span class="dato__event">12/06/2024 - 13:21 hrs</span>
+                        <span class="title__localidad">Aviso</span>
+                        <span class="dato__event">Seleccione un Estado y Municipio</span>
                     </div>
                 </div>
             </div>
