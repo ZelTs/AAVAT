@@ -1,7 +1,7 @@
 .contact__bg{
     background-color: #242424;
-    padding: 3rem 0;
-    margin: 3rem 0 -2rem 0;
+    padding: 2rem 0;
+    margin: 2rem 0 -2rem 0;
 }
 
 
@@ -32,9 +32,14 @@
     justify-content: flex-start;
     align-items: center;
     font-size: 1.125rem;
+    font-weight: 200;
 }
 
 .datos svg{
     margin: 1rem;
+}
 
+.svg__img{
+    stroke: #000000;
+    stroke-width: 1;
 }
